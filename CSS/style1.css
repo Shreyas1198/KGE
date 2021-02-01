@@ -5,7 +5,7 @@
  }
  h1,h3{
      text-align: center;
-     font-weight: 500;
+     font-weight: bold;
      margin: 20px auto;
  }
  .input-feild{
@@ -19,10 +19,60 @@
     outline: none;
     background: transparent;
 }
+.l1{
+    font-weight: 700;
+}
+.input-area{
+    margin-top: 30px;
+    padding: 10px 0;
+    width: 50%;
+    border-left: 1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom:1px solid #999;
+    outline: none;
+    background: transparent;   
+}
+.input-drop{
+    margin-top: 30px;
+    padding: 10px 0;
+    width: 20%;
+    border-left: 1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom:1px solid #999;
+    outline: none;
+    background: transparent;   
+
+}
+.check-box{
+    margin: 20px 10px 20px 0;
+}
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+}
 .Product-detail{
     top: 20px;
     width: 100%;
     transition: .5s;
     overflow: hidden;
     text-align: center;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+hr{
+ margin-top: 10px;
+ margin-bottom: 10px;
+ border: 1px solid gray;
 }
