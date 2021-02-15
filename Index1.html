@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>Product</title>
         <link rel="stylesheet" href="./CSS/style1.css">
+        <script src="ckeditor/ckeditor.js" text/javascript"></script>
     </head>
     <body>
         <div class="container">
@@ -13,8 +14,7 @@
             <form class="Product-detail">
                 <h3>Basic Product Details</h3>
                 <input type="text" class="input-feild" placeholder="Product Name" required><br>
-                            <textarea type="text" class="input-area" placeholder="Product Description"></textarea><br>
-            
+                            <textarea type="text" class="ckeditor input-area" name="content" placeholder="Product Description"></textarea><br>
                 <select class="input-drop">
                     <option value="brand1">Brand1</option>
                     <option value="brand2">Brand2</option>
@@ -24,5 +24,6 @@
                                 <input type="file" class="input" placeholder="Product Image" required><br>
                 <input type="checkbox" class="check-box"><span>Product Status[Checked means active]</span>
             </form>
+            
     </body>
 </html>
