@@ -21,8 +21,8 @@ CKEDITOR.editorConfig = function( config ) {
 		'/',
 		{ name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ] },
 		{ name: 'paragraph',   groups: [ 'list', 'indent', 'blocks', 'align', 'bidi' ] },
-		{ name: 'styles' },
 		{ name: 'colors' },
+		{ name: 'styles', groups: [ 'styles' ] },
 		{ name: 'about' }
 	];
 
@@ -35,4 +35,10 @@ CKEDITOR.editorConfig = function( config ) {
 
 	// Simplify the dialog windows.
 	config.removeDialogTabs = 'image:advanced;link:advanced';
+
+
+	config.height = 250;
+	config.width = 800;
+	config.uiColor = '#54a0ff';  
+	config.margin = 20;
 };
