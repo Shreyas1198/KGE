@@ -37,8 +37,8 @@ CKEDITOR.editorConfig = function( config ) {
 	config.removeDialogTabs = 'image:advanced;link:advanced';
 
 
-	config.height = 250;
+	config.height = 200;
 	config.width = 800;
-	config.uiColor = '#54a0ff';  
+	config.uiColor = '#badc58';  
 	config.margin = 20;
 };
